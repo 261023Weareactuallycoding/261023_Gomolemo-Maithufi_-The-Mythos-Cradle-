@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hwb(200 47% 20% / 0.948) ;
+    margin: 0;
+}
+h1 {
+    color: #fff;
+}
+
+p {
+    color: #333;
+}
+
+#mainHeader {
+    background-color: red;
+
+    color: #fff;
+    text-align: center;
+}
+
+.card{
+    background-color: #fff;
+}
