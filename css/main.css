@@ -1,6 +1,35 @@
 body{
-    font-family: 'Poppins';
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
+
+.topNav{
+    overflow: hidden;
+    background-color: white;
+
+}
+
+.topNav a{
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+.
+
+@font-face {
+    font-family:"egypt font";
+    src: url(/assets/fonts/Mythology\ Of\ Egypt.otf);
+
+}
+
+
 .flexContainer{
     display: flex;
     flex-direction: row;
@@ -31,4 +60,8 @@ body{
     background-image: url(../assets/img/homeHeader.png);
     background-size: cover;
     background-repeat: none;
+}
+
+header img{
+
 }

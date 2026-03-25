@@ -8,44 +8,150 @@
     <meta name="author" content="Gomolemo Maithufi 261023">
 
     <title>The Mythos Cradle</title>
-
+    <title>Embedding Elements</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metamorphous&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     
-
-    <link rel="stylesheet" href="css/main.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/css/main.css">
 
 
 
 
 </head>
 <body>
-  <header id="mainHeader">
-        <h1>Gomolemo Maithufi</h1>
-         <p>First Year Interactive Development Student</p>
-     </header>
+ <header>
+    <nav>
+        <div class="topNav">
+            <a href="index.html"><img src="assets/img/logo.png" width="70px"></a>
 
-<section class="card">
-    <h2>About me</h2>
+              <div class="topNavRight">
+                <a class= "active" href="index.html">Home</a>
+                <a href="Pages/about.html">Adopt</a>
+                <a href="Pages/contact.html">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+ 
+
+
    
-    <p>I am learning HTML and CSS. This is my first styled webpage</p>
+    <form>
+        <div class="formElement">
+            <label for="search">Search</label>
+            <input type="text" id="search" name="Search" placeholder="Search"/>
+        </div>
+    </form>
+    </nav>
+ </header>
+
+ <section class="AboutSection">
+    <div class="backgroundImage">
+        <a href="index.html"><img src="assets/img/homeHeader.png" width="100%" alt=""></a>
+
+    </div>
+    <h1 class="TitlePage">The Mythos Cradle</h1>
+    <p>Where legends become loved ones</p>
+ </section>
+        
+
+
+
+<section class="AboutSection no.1">
+    <p>BEGIN YOUR JOURNEY</p>
+    <h2>Tiny Legends Big Hearts</h2>
+   
+    <p>Begin your journey into legend: tiny dragons,
+shimmering pegasi, mischievous kitsune, and
+watchful basilisks are ready to meet their families.
+Delight in enchanted encounters, gentle care, and
+joyful playtime. Heartwarming bonds await as these
+legendary creatures find their forever homes.</p>
+
+<button>Cradle a Legend</button>
 </section>
 
+
+<section class="AboutSection no.2">
+    <p>THE CRADLE</p>
+    <h3>A Sanctuary Where Mythical
+Creatures Find Families</h3>
+   
+    <p>Discover our carefully nurtured mythical creatures,
+each ready to join a loving family. Experience the
+joy and wonder of forming a lasting bond, as every
+adoption is guided with care, ensuring a safe,
+ethical, and heartwarming journey for both
+creature and caretaker.</p>
+</section>
+
+<section class="AboutSectioncontainer"> </section>
+<div>
+        <p>LOOKING IN ON PAST FRIENDS</p>
+    <h4>From Cradle to Family: A
+        Legend at Home</h4>
+        <div id="PastAdoption no.1" class="card-item active">
+            <img src="assets/img/successImg1.png" class="d-block w-20" alt="...">
+                    <h5>Percy’s Quiet Winter Days</h5>
+                        <p>Explore red deserts, ancient relics,
+                        Once shy in the cold, Percy now
+                        explores snowy peaks wrapped in
+                        warmth, curiosity, and family love.</p>
+
+        </div>
+
+            <div id="PastAdoption no.2" class="card-item active">
+                <img src="assets/img/successImg2.png" class="d-block w-20" alt="...">
+                    <h6>Ripple’s Gentle River Home</h6>
+                        <p>Gentle Ripple has found peace 
+                            along flowing waters, bonded 
+                            closely with a family who
+                            treasures calm and care.</p>
+
+            </div>
+
+                 <div id="PastAdoption no.3" class="card-item active">
+                    <img src="assets/img/successImg3.png" class="d-block w-20" alt="...">
+                        <h7>Atlas Learns to Trust</h7>
+                             <p>Brave little Atlas grows stronger
+                                each day, learning trust and
+                                courage in a home filled with
+                                patience.</p>
+
+                </div>
+
+                 <div id="PastAdoption no.4" class="card-item active">
+                    <img src="assets/img/successImg4.png" class="d-block w-20" alt="...">
+                        <h8>Skye’s First Open Skies</h8>
+                             <p>Skye’s wings stretch freely at last,
+                                soaring happily above a home
+                                where wonder is always welcome.</p>
+
+                </div>
+
+    <button>Cradle a Legend</button>
+</div>
+
+
 <section class="card">
-    <h2>Skills</h2>
+    <h2>Company</h2>
         <ul>
             <li>Home</li>
-            <LI>Adoption</LI>
+            <LI>Adopt</LI>
             <li>Contact Us</li>
         </ul>
 </section>
 
  <footer> 
-     <p> &copy; 2026 Gomolemo Maithufi</p>
+    <p> &copy; All Rights Reserved @ Open Window 2024</p>
+     <p>Terms & Conditions</p>
+     <p>Privacy & Policy</p>
  </footer>
 
 
 
-
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
