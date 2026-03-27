@@ -2,16 +2,15 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-.
 
 @font-face {
-    font-family: url(../assets/fonts/Mythology\ Of\ Egypt.otf);
-
+    font-family: "Titlefonts";
+    src: url("/assets/fonts/Mythology\ Of\ Egypt.otf")
 }
-.navFlex p{
-    background-color:ghostwhite;
+.navbar{
+    display: flex;
+
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     border-radius: 15px;
 }
@@ -35,7 +34,7 @@ body{
     position: relative;
     text-align: center;
     color: #e9ad1c;
-    font-family: url(../assets/fonts/Mythology\ Of\ Egypt.otf);
+    font-family: 'Titlefonts';
     font-size: 96pt;
 
 }
@@ -48,10 +47,11 @@ body{
     color: #fff;
 
 
+
 }
 .titlePage{
     position: absolute;
-    top: 50%;
+    top: 35%;
     right: 16px;
     font-size: 96pt;
     font-family: url(../assets/fonts/Mythology\ Of\ Egypt.otf)
@@ -99,11 +99,18 @@ body{
 }
 
 .aboutSection1 p{
-    color: #fff;
+    color: #e9ad1c;
     font-family: 'Poppins';
     font-size: 16pt;
     text-align: right;
     float: right;
+
+}
+
+/* .firstSection{
+    margin-top: 350px;
+    
+     */
 
 }
 
@@ -118,12 +125,19 @@ body{
 }
 
 .aboutSection1 img{
+    height: 50%;
     width: 50%;
-    display:block;
+    display:flex;
     margin-right:auto;
     float: left;
 }
-    
+    .titlePage{
+    position: absolute;
+    top: 35%;
+    right: 16px;
+    font-size: 96pt;
+    font-family: url(../assets/fonts/Mythology\ Of\ Egypt.otf)
+}
 .aboutSection2{
     background-color: #fff;
     display: flex;
@@ -182,7 +196,7 @@ body{
 }
 
 .AboutSectioncontainer h4{
-     color: #fff;
+    color: #fff;
     font-family: 'Poppins';
     font-size: 16pt;
     text-align: right;
@@ -212,10 +226,17 @@ button{
 }
 
 .adoptee1{
-    
+
 }
 
+.contactUs{
+    font-family: 'Titlefonts' sans-serif;
+    color: #fff;
+    position: relative;
+    text-align: center;
 
+
+}
 
 .flexContainer{
     display: flex;
