@@ -70,22 +70,153 @@ body{
     background-repeat: none;
 }
 .aboutSection1{
-    color:#002d68
+    background-color: #002d68;
     display: flex;
     flex-direction: column;
     justify-content: right;
     align-items:left;
     padding: 10%;
-    gap: 5%
+    gap: 5%   
+
+}
+.aboutSection1 p1{
+    font-family: 'Poppins';
+    color: #e9ad1c;
+    font-size: 18pt;
+    text-align: right;
+    float: left;
     
 
 }
-.aboutSection button{
-    background-color: #15d5f5;
+.aboutSection1 h2{
     color: #fff;
+    font-family: 'Poppins';
+   font-size: 40pt;
+   text-align: right;
+   float: right;
 
 
 }
+
+.aboutSection1 p{
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 16pt;
+    text-align: right;
+    float: right;
+
+}
+
+.aboutSection1 button{
+    background-color:  #15d5f5;
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-size: 18pt;
+    float: right;
+
+}
+
+.aboutSection1 img{
+    width: 50%;
+    display:block;
+    margin-right:auto;
+    float: left;
+}
+    
+.aboutSection2{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items:left;
+    padding: 10%;
+    gap: 5%   
+}
+
+.aboutSection2 p{
+    color: #15d5f5;
+    font-family: 'Poppins';
+    font-size: 18pt;
+    text-align: left;
+    float: left;
+
+}
+.aboutSection2 h3{
+    color: #002d68;
+    font-family: 'Poppins';
+   font-size: 40pt;
+   text-align: left;
+   float: left;
+}
+.aboutSection2 p1{
+    font-family: 'Poppins';
+    font-size: 16pt;
+    text-align: left;
+    float: left;
+
+}
+.aboutSection2 img{
+    width: 50%;
+    display:block;
+    margin-left:auto;
+    float: right;
+
+
+}
+.AboutSectioncontainer{
+    background-color: #002d68;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items:left;
+    padding: 10%;
+    gap: 5%   
+}
+
+.AboutSectioncontainer p{
+    color: #e9ad1c;
+    font-family: 'Poppins';
+    font-size: 16pt;
+    text-align: center;
+}
+
+.AboutSectioncontainer h4{
+     color: #fff;
+    font-family: 'Poppins';
+    font-size: 16pt;
+    text-align: right;
+    float: right;
+
+}
+
+
+button{
+    background-color:  #15d5f5;
+    color: #fff;
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-size: 18pt;
+    float: center;
+
+}
+.adoptees{
+    background-color: #002d68;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items:left;
+    padding: 10%;
+    gap: 5%   
+
+}
+
+.adoptee1{
+    
+}
+
+
+
 .flexContainer{
     display: flex;
     flex-direction: row;
@@ -109,3 +240,4 @@ body{
 header img{
 
 }
+
