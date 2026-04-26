@@ -13,12 +13,18 @@ body{
 }
 .topNavCenter a{
     display: flex;
-    justify-content: center;
     color: black;
+    justify-content: center;
     text-decoration: none;
     flex-direction: row;
     align-items: center;
     border-radius: 15px;
+    font-size: 18pt;
+    font-weight:400;
+
+}
+.topNavCenter a.active{
+    color: #15d5f5;
 }
 
 .searchItem{
@@ -75,42 +81,42 @@ body{
     background-size: cover;
     background-repeat: none;
 }
-.aboutSection1{
+
+.TinyLegendsBigHearts{
     background-color: #002d68;
     display: flex;
-    flex-direction: column;
-    justify-content: right;
+}
+
+.TinyLegendsBigHearts img{
+    height: 50%;
+    width: 50%;
+    display:flex;
+    justify-content: center;
     align-items:left;
     padding: 10%;
     gap: 5%   
-
-}
-.aboutSection1 p1{
-    font-family: 'Poppins';
-    color: #e9ad1c;
-    font-size: 18pt;
-    text-align: right;
-    float: left;
-    
-
-}
-.aboutSection1 h2{
-    color: #fff;
-    font-family: 'Poppins';
-   font-size: 40pt;
-   text-align: right;
-   float: right;
-
-
 }
 
-.aboutSection1 p{
+.tinyLegendsaboutSection p{
     color: #e9ad1c;
     font-family: 'Poppins';
     font-size: 16pt;
+    text-align: center;
+    float: right;
+}
+.tinyLegendsaboutSection h2{
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 40pt;
     text-align: right;
     float: right;
-
+}
+.tinyLegendsaboutSection p1{
+    font-family: 'Poppins';
+    color: #fff;
+    font-size: 18pt;
+    text-align: right;
+    float: left;
 }
 
 /* .firstSection{
@@ -118,17 +124,15 @@ body{
     
      */
 
-}
-
-.aboutSection1 button{
+button{
     background-color:  #15d5f5;
     color: #fff;
     border-radius: 50px;
     font-family: 'Poppins';
     font-size: 18pt;
-    float: right;
-
+    float: center;
 }
+
 
 .aboutSection1 img{
     height: 50%;
