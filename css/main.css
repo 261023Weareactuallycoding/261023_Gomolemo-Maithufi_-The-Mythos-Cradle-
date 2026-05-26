@@ -10,6 +10,7 @@ body{
 .topNav{
     overflow: hidden;
     background-color: #fff;
+    opacity: 0.6;
 }
 .topNavCenter a{
     display: flex;
@@ -133,21 +134,6 @@ button{
     float: center;
 }
 
-
-.aboutSection1 img{
-    height: 50%;
-    width: 50%;
-    display:flex;
-    margin-right:auto;
-    float: left;
-}
-    .titlePage{
-    position: absolute;
-    top: 35%;
-    right: 16px;
-    font-size: 96pt;
-    font-family: url(../assets/fonts/Mythology\ Of\ Egypt.otf)
-}
 .aboutSection2{
     background-color: #fff;
     display: flex;
